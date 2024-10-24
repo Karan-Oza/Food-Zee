@@ -9,6 +9,8 @@ import { useState } from "react";
 import LoginPopUp from "./components/LoginPopUp/LoginPopUp";
 import Verify from "./pages/Verify/Verify";
 import MyOrders from "./pages/MyOrders/MyOrders";
+import About from "./components/About/About";
+import PrivacyPolicy from "./components/Privacy/PrivacyPolicy";
 
 
 const App = () => {
@@ -20,6 +22,8 @@ const App = () => {
         <Navbar setShowLogin={setShowLogin}></Navbar>
         <Routes>
           <Route path="/" element={<Home></Home>} />
+          <Route path="/about" element={<About/>} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy/>} />
           <Route path="/Cart" element={<Cart />} />
           <Route path="/order" element={<PlaceOrder />} />
           <Route path="/verify" element={<Verify/>} />

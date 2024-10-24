@@ -1,0 +1,227 @@
+/* About Us Page CSS */
+.about-container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 2rem;
+  }
+  
+  .about-hero {
+    position: relative;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .about-hero-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    filter: brightness(70%);
+  }
+  
+  .about-hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .about-hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  
+  .about-hero-text p {
+    font-size: 1.5rem;
+  }
+  
+  .about-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-section, .about-values, .about-team, .about-contact {
+    margin-bottom: 3rem;
+  }
+  
+  .about-values {
+    background-color: #f7f7f7;
+    padding: 2rem;
+  }
+  
+  .values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  
+  .value-item {
+    text-align: center;
+  }
+  
+  .value-item img {
+    width: 80px;
+    margin-bottom: 1rem;
+  }
+  
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .team-member {
+    text-align: center;
+  }
+  
+  .team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .team-member h3 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #444;
+  }
+  
+  .about-contact ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-contact ul li {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  /* General styles for the About sections */
+.about-section {
+    margin: 3rem 0;
+  }
+  
+  .about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .about-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Vision Section */
+  .about-vision {
+    background-color: #f9f9f9; /* Light background for contrast */
+    padding: 2rem 1rem;
+    border-radius: 8px; /* Slightly rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Mission Section */
+  .about-mission {
+    background-color: #ffffff; /* White background for a clean look */
+    padding: 2rem 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Achievements Section */
+  .about-achievements {
+    margin: 3rem 0;
+  }
+  
+  .achievements-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid layout */
+    gap: 2rem;
+  }
+  
+  .achievement-item {
+    background-color: #f7f7f7; /* Background for achievement items */
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .achievement-item img {
+    width: 60px; /* Adjust icon size */
+    margin-bottom: 1rem;
+  }
+  
+  /* Core Values Section */
+  .about-values {
+    margin: 3rem 0;
+  }
+  
+  .values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive layout */
+    gap: 2rem;
+  }
+  
+  .value-item {
+    background-color: #ffffff; /* White background for value items */
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .value-item img {
+    width: 60px; /* Adjust icon size */
+    margin-bottom: 1rem;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .about-section h2 {
+      font-size: 1.8rem; /* Smaller heading size on mobile */
+    }
+  
+    .about-section p {
+      font-size: 1rem; /* Smaller paragraph size on mobile */
+    }
+  }
+  .about-contact {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .map-container {
+    margin-top: 2rem;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  iframe {
+    width: 100%;
+    max-width: 600px; /* Set a max width for larger screens */
+    height: 450px; /* Set a fixed height for the map */
+    border: none; /* Remove border */
+  }
+  .email-link {
+    color: #007bff; /* Blue color for email link */
+    text-decoration: none; /* No underline */
+  }
+  
+  .email-link:hover {
+    text-decoration: underline; /* Underline on hover for better UX */
+  }
+  
+  .map-container {
+    margin-top: 20px; /* Adds space above the map */
+    text-align: center; /* Center the map */
+  }
+  
