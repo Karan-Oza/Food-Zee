@@ -19,6 +19,7 @@ const Cart = () => {
           <p>Total</p>
           <p>Remove</p>
         </div>
+        
         <br />
         <hr />
         {food_list.map((item, index) => {
